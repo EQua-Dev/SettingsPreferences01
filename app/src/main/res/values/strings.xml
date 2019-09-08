@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SettingsPreferenceExample</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <string name="sync_pref">Sync</string>
+    <string name="sync_pref_summary">
+        Get your phones, videos, contents, subscriptions etc on all your devices
+    </string>
+
+    <string name="pref_syncConnectionType">Sync Connection Type</string>
+    <string name="pref_syncConnectionType_dialog_title">Perform Sync Using</string>
+    <string name="pref_syncConnectionType_default_value">Wifi</string>
+    <string name="pref_syncConnectionType_summary">Wifi</string>
+    <string name="signature_title">Signature</string>
+
+    <string-array name="pref_syncConnectionType_entries">
+        <item>Wifi</item>
+        <item>Mobile Data</item>
+        <item>Wifi/Mobile Data</item>
+    </string-array>
+
+    <string-array name="pref_syncConnectionType_values">
+        <item>Wifi</item>
+        <item>Mobile</item>
+        <item>Wifi_Mobile</item>
+    </string-array>
+</resources>
