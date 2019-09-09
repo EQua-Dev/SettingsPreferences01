@@ -41,7 +41,7 @@
         <item>Wifi_Mobile</item>
     </string-array>
 
-
+<!--    -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -   -->
     <string name="storage_group_title">STORAGE</string>
     <string name="text_message_group_title">TEXT (SMS) MESSAGES</string>
     <string name="text_multimedia_message_group_title">MULTIMEDIA (MMS) MESSAGES</string>
@@ -50,7 +50,7 @@
     <string name="delete_message_summary">Delete old messages as limits are reached</string>
 
     <string name="text_message_limit_title">Text message limit</string>
-    <string name="text_message_limit_summary">200 messages per conversation</string>
+    <string name="text_message_limit_summary">500 messages per conversation</string>
 
     <string name="multimedia_message_limit_title">Multimedia message limit</string>
     <string name="multimedia_message_limit_summary">150 messages per conversation</string>
@@ -58,7 +58,38 @@
     <string name="delivery_reports_title">Delivery reports</string>
     <string name="delivery_reports_summary">Request a delivery report for each message you send</string>
 
+    <string-array name="message_limit_entries">
+        <item>150 Messages/Conversations</item>
+        <item>300 Messages/Conversations</item>
+        <item>500 Messages/Conversations</item>
+    </string-array>
+
+    <string-array name="message_limit_values">
+        <item>150</item>
+        <item>300</item>
+        <item>500</item>
+    </string-array>
+
+    <string name="limit_default_value">500</string>
+
     <string name="sim_card_message_title">Manage SIM card messages</string>
     <string name="sim_card_message_summary">Manage messages stored on your SIM card</string>
+
+    <!-- - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+    <string name="ringtone_title_group">RINGTONE</string>
+    <string name="other_callsettings_title_group">OTHER CALL SETTINGS</string>
+
+    <string name="voicemail_title">VoiceMail</string>
+    <string name="dial_pad_touch_tone">Dial pad touch tones</string>
+    <string name="vibrate_ringing_title">Vibrate when ringing</string>
+    <string name="phone_ringtone_title">Phone ringtone</string>
+
+    <string name="service_title">Service</string>
+    <string name="service_summary">Google Voice</string>
+    <string name="setup_title">Setup</string>
+    <string name="ringtone_title">Ringtone</string>
+    <string name="vibrate_title">Vibrate</string>
+    <string name="vibrate_summary">Always</string>
 
 </resources>

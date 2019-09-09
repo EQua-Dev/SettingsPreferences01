@@ -13,7 +13,8 @@
         <Preference
             android:title="@string/text_message_limit_title"
             android:summary="@string/text_message_limit_summary"
-            android:dependency="pref_delete_old_message"/>
+            android:dependency="pref_delete_old_message"
+            />
 
         <Preference
             android:title="@string/multimedia_message_limit_title"
